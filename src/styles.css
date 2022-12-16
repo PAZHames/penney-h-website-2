@@ -1,0 +1,155 @@
+.top-header {
+  width: 100%;
+  background-image: url(images/top-header.png);
+  object-fit: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+a.nav-link,
+a.navbar-brand {
+  color: white;
+  font-family: "Playfair display";
+  font-size: 24px;
+}
+
+a.nav-link:hover,
+a.navbar-brand:hover {
+  background-color: white;
+  color: #144106;
+  border-radius: 10px;
+}
+
+a.navbar-brand {
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: white;
+  font-family: "Playfair display";
+}
+
+h1 {
+  font-size: 70px;
+  margin-bottom: 0px;
+  padding-top: 240px;
+  font-weight: bolder;
+}
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  kerning: 10px;
+  margin-top: 10px;
+  padding-bottom: 40px;
+}
+
+p {
+  font-family: "Lato";
+  text-align: center;
+  color: #144106;
+  font-size: 20px;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  font-family: "Playfair display";
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffff;
+  background: #144106;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-width: 3px;
+  border-color: #144106;
+}
+.page-title {
+  font-family: "Playfair display";
+  font-size: 44px;
+  text-align: center;
+  color: #144106;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+.home-text {
+  border: none;
+}
+
+.dropdown-item {
+  font-family: "Lato";
+  color: #144106;
+}
+
+.contact-button {
+  font-family: "Playfair display";
+  font-size: 26px;
+  font-weight: bold;
+  padding: 30px 70px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 60px;
+  border-width: 3px;
+  border-color: #144106;
+  box-shadow: 2px 2px 2px #144106;
+  color: #144106;
+  background-color: #d4dfcf;
+  text-align: center;
+}
+
+.contact-button:hover {
+  background-color: #144106;
+  color: white;
+}
+
+.prof-pic {
+  display: block;
+  margin: 0 auto;
+  margin: 45px;
+  margin-top: 70px;
+  text-align: center;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.UKCP-logo {
+  margin: 40px;
+  width: 80%;
+}
+
+.pricing,
+.pricing-option {
+  font-family: "Lato";
+  text-align: center;
+  color: #144106;
+  padding: 10px;
+}
+
+.pricing {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.pricing-option {
+  font-size: 18px;
+}
+
+.specialities-table {
+  font-family: "Lato";
+
+  color: #144106;
+  font-size: 16px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-email:hover {
+  color: inherit;
+  text-decoration: underline;
+}
