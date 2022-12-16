@@ -114,6 +114,11 @@ footer {
   width: 80%;
 }
 
+.contact-image {
+  display: block;
+  margin: 0 auto;
+}
+
 .UKCP-logo {
   margin: 40px;
   width: 80%;
