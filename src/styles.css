@@ -60,7 +60,10 @@ footer {
   font-size: 26px;
   font-weight: bold;
   color: #ffff;
-  background: #144106;
+  width: 100%;
+  background-image: url(images/top-header.png);
+  object-fit: cover;
+
   padding-bottom: 30px;
   padding-top: 30px;
   border-width: 3px;
