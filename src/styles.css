@@ -130,7 +130,7 @@ footer {
 .pricing,
 .pricing-option {
   font-family: "Lato";
-  text-align: center;
+  
   color: #144106;
   padding: 10px;
 }
@@ -138,10 +138,12 @@ footer {
 .pricing {
   font-size: 20px;
   font-weight: 600;
+  text-align: center;
 }
 
 .pricing-option {
   font-size: 18px;
+  text-align: left;
 }
 
 .specialities-table {
