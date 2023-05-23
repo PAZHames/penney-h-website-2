@@ -8,21 +8,35 @@
 }
 
 a.nav-link,
-a.navbar-brand {
+a.navbar-brand
+ {
   color: white;
   font-family: "Playfair display";
   font-size: 24px;
-}
 
-a.nav-link:hover,
-a.navbar-brand:hover {
-  background-color: white;
-  color: #144106;
-  border-radius: 10px;
 }
 
 a.navbar-brand {
   font-weight: bold;
+  margin-left: 10px;
+}
+
+a.nav-link {
+  margin-left: 40px;
+  padding: 10px;
+}
+
+a.nav-link:hover,
+a.navbar-brand:hover
+ {
+  background-color: white;
+  color: #144106;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.navbar-toggler  {
+  color: white;
 }
 
 h1,
@@ -162,4 +176,9 @@ a {
 .footer-email:hover {
   color: inherit;
   text-decoration: underline;
+}
+
+
+@media (max-width: 992px) {
+  
 }
