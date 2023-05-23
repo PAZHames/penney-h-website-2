@@ -179,6 +179,8 @@ a {
 }
 
 
-@media (max-width: 992px) {
-  
-}
+/* @media (max-width: 992px) {
+  .navbar-brand .logo {
+    display: none;
+  }
+} */
