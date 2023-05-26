@@ -100,7 +100,7 @@ footer {
   color: #144106;
 }
 
-.contact-button {
+.contact-button-large {
   font-family: "Playfair display";
   font-size: 26px;
   font-weight: bold;
@@ -116,9 +116,28 @@ footer {
   text-align: center;
 }
 
-.contact-button:hover {
+.contact-button-large:hover, .contact-button-small:hover {
   background-color: #144106;
   color: white;
+}
+
+.contact-button-small {
+  font-family: "Playfair display";
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px 35px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 60px;
+  border-width: 3px;
+  border-color: #144106;
+  box-shadow: 2px 2px 2px #144106;
+  color: #144106;
+  background-color: #d4dfcf;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
 }
 
 .prof-pic {
@@ -126,9 +145,16 @@ footer {
   margin: 0 auto;
   margin: 45px;
   margin-top: 70px;
-  text-align: center;
   border-radius: 20px;
   width: 80%;
+}
+
+.sub-pic {
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  width: 40%;
+  margin-bottom: 15px;
 }
 
 .contact-image {
@@ -178,9 +204,68 @@ a {
   text-decoration: underline;
 }
 
+.portrait {
+  max-width: 60%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+}
 
-/* @media (max-width: 992px) {
-  .navbar-brand .logo {
+
+@media (max-width: 992px) {
+  .top-header {
+    background-image: none;
+    margin-bottom: 20px;
+ 
+  }
+  .navbar {
+    background-color: rgb(20, 65, 7, 0.8);
+  }
+  h1, h2 {
+    color: #144106;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 16px;
+    padding-bottom: 0px;
+    
+  }
+  p, .pricing, .pricing-option {
+    font-size: 14px;
+  }
+  .page-title {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .home-text {
+    width: 100%;
+  }
+  .contact-button-large {
     display: none;
   }
-} */
+  .prof-pic {
+    display: none;
+  }
+  .UKCP-logo {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+} 
+@media (min-width: 992px) {
+  .contact-button-small {
+    display: none;
+  }
+  .portrait {
+    display: none;
+  }
+  .sub-pic {
+    display: none;
+  }
+}
