@@ -1,10 +1,14 @@
 .top-header {
   width: 100%;
-  background-image: url(images/top-header.png);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)
+  ), url(images/hero-pic.JPG);
   object-fit: cover;
-  background-position: center;
+  /* background-position: center; */
   position: relative;
   margin-bottom: 60px;
+  height: 90vh;
 }
 
 a.nav-link,
@@ -49,7 +53,7 @@ h2 {
 h1 {
   font-size: 70px;
   margin-bottom: 0px;
-  padding-top: 240px;
+  padding-top: 400px;
   font-weight: bolder;
 }
 h2 {
@@ -75,7 +79,10 @@ p {
   font-weight: bold;
   color: #ffff;
   width: 100%;
-  background-image: url(images/top-header.png);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)
+  ), url(images/top-header.png);
   object-fit: cover;
 
   padding-bottom: 30px;
@@ -247,6 +254,7 @@ a {
 @media (max-width: 992px) {
   .top-header {
     background-image: none;
+    height: 100%;
     margin-bottom: 20px;
  
   }
